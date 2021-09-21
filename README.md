@@ -2,7 +2,7 @@
 JavaScriptによるTodoリスト・カスタマイズ版
 
 ## 使用技術
-JavaScript HTML SCSS
+JavaScript HTML SCSS<br>
 (アロー関数・関数使い回し・子要素などの操作等)
 
 ## カスタマイズ部分
