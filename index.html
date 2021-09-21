@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TODO(JS）</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="scss/style.css">
+</head>
+    <body>
+    <ul class="input-area">
+        <li><input placeholder="TODOを入力" id="addText"/></li>    
+        <li><button id="addButton">追加</button></li> 
+    </ul>
+<div class="incomplete-area">
+    <h2 class="title">未完了のTODO</h2>
+    <ul class="content-wrapper flex-col" id="incompleteList">
+        <li>
+            <!-- <ul class="newTodoList">
+                <li class="s-title">TODOです</li>
+                <li class="btn-adjust"><button class="complete">完了</button></li>
+                <li><button class="delete">削除</button></li>
+            </ul> -->
+        </li>
+        <li>
+            <!-- <ul class="newTodoList">
+                <li class="s-title">TODOです</li>
+                <li class="btn-adjust"><button>完了</button></li>
+            </ul> -->
+        </li>
+    </ul>
+</div>
+<div class="complete-area">
+<h2 class="title">完了したTODO</h2>
+<ul class="content-wrapper" id="completeList">
+    <!-- <ul class="newTodoList">
+        <li class="s-title">TODOでした</li>
+        <li><button>戻す</button></li>
+    </ul> -->
+</ul>
+</div>
+<script src="src/index.js"></script>
+    </body>
+</html>
